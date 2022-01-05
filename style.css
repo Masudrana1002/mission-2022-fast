@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(226, 234, 236);
+}
+.section-one{
+    display: flex;
+    margin: 80px ;
+    
+}
+.width-half{
+    width: 50%;
+    
+    text-align:left;
+}
+.width-half p{
+    font-size: 22px;
+}
+.width-half h1{
+    border-left: 5px solid rgb(254, 201, 107);
+    font-size: 45px;
+}
+.conten{
+
+}
+.width-half img{
+    width:400px;
+    position: relative;
+    left:135px;
+    bottom:80px;
+    
+}
+.button{
+    padding: 8px 6px;
+    border-radius: 8px;
+    font-size: 15px;
+    
+}
+.button:hover{
+    background-color: rgb(253, 184, 78);
+}
+    
+samp{
+    color:rgb(248, 154, 72);
+}
+.mission{
+    text-align: center;
+    font-size:35px ;
+}
+.section-tow{
+    width:;
+    display: flex;
+    margin: 30px;
+    position: relative;
+    right: 10px;
+    padding-left: 50px;
+}
+
+}
+.section-tow div{
+    width: 23%;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid gray;
+}
+.section-tow img{
+    width: 50%;
+   
+}
