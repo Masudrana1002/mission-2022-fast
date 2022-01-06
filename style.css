@@ -104,7 +104,7 @@ samp{
 .hafe img{
     width:330px;
     margin-left: 50px;
-    margin-top:80px;
+    margin-top:50px;
 }
    
 #margin{
@@ -118,4 +118,7 @@ input{
 
 #masg{
      margin-top: 50px;
+}
+footer{
+    text-align: center;
 }
