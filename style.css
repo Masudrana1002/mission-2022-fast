@@ -1,14 +1,15 @@
 body{
     background-color: rgb(226, 234, 236);
+    margin: 0;
+}
+section{
+    margin: 10% 5% 5% 8%;
 }
 .section-one{
     display: flex;
-    margin: 80px ;
-    
 }
 .width-half{
     width: 50%;
-    
     text-align:left;
 }
 .width-half p{
@@ -17,16 +18,13 @@ body{
 .width-half h1{
     border-left: 5px solid rgb(254, 201, 107);
     font-size: 45px;
-}
-.conten{
-
+    width:100%;
 }
 .width-half img{
     width:400px;
     position: relative;
     left:135px;
     bottom:80px;
-    
 }
 .button{
     padding: 8px 6px;
@@ -39,29 +37,85 @@ body{
 }
     
 samp{
-    color:rgb(248, 154, 72);
+    color:rgb(253, 121, 6);
 }
 .mission{
     text-align: center;
-    font-size:35px ;
+    font-size:30px ;
+    margin-top: 30px;
 }
-.section-tow{
-    width:;
+.parent{
     display: flex;
-    margin: 30px;
-    position: relative;
-    right: 10px;
-    padding-left: 50px;
+    text-align: justify;
+    justify-content:space-between;
+}  
+.box-one{
+    width: 250px;
+    background-color: rgb(201, 235, 243);                                        
+    box-shadow: 8px 8px 15px rgb(144, 161, 165);
+    padding: 10px 10px;
+    border-radius: 15px;
+
+
+} 
+.box-one img{
+    width:100px;
+    margin-left:50px;
+    
 }
+.box-tow{
+    width: 250px;
+    background-color:rgb(218, 243, 239);                                  
+    box-shadow: 8px 8px 15px rgb(144, 161, 165);
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+.box-tow img{
+    width: 100px;
+    margin-left:50px;
+}
+.box-three{
+    width: 250px;
+    background-color:rgb(245, 247, 236) ;
+    box-shadow: 8px 8px 15px rgb(144, 161, 165);
+    padding: 10px 10px;
+    border-radius: 15px;
+    
+}
+.box-three img{
+    width: 100px;
+    margin-left:50px;
+}
+.box-three samp{
+    font-size: 25px;
+}
+.why-learn{
+    display: flex;
+    justify-content:space-between;
+    text-align: justify;
+}
+.hafe{
+    width: 50%;
 
 }
-.section-tow div{
-    width: 23%;
-    margin: 5px;
-    padding: 5px;
-    border: 2px solid gray;
+.hafe h1{
+    font-size: 30px;
 }
-.section-tow img{
-    width: 50%;
+.hafe img{
+    width:330px;
+    margin-left: 50px;
+    margin-top:80px;
+}
    
+#margin{
+    margin-top: 50px;
+}
+input{
+    width: 350px;
+    height: 150px;
+}
+
+
+#masg{
+     margin-top: 50px;
 }
